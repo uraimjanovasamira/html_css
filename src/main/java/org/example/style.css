@@ -3,47 +3,55 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-.logo{
+.logo {
     color: #295943;
     font-size: 33.18px;
     margin-left: 30px;
 }
-a{
+
+a {
     color: #3D3E48;
+    text-decoration: none;
 }
-a:hover{
-    color:#43B97F;
+
+a:hover {
+    color: #43B97F;
     font-weight: bold;
 }
-a:active{
+
+a:active {
     color: blue;
     text-decoration: underline;
 }
 
-.kg{
+.kg {
     width: 20px;
     height: 20px;
-    border-radius:50% ;
+    border-radius: 50%;
 
 }
-.id{
+
+.id {
     font-weight: bold;
 }
-.header-icon{
+
+.header-icon {
     width: 20px;
     height: 20px;
 }
-.header-container-flag{
+
+.header-container-flag {
     display: flex;
     gap: 10px;
     align-items: center;
     margin-right: 30px;
 }
-header{
+
+header {
     width: 100%;
     height: 80px;
     /*background-color: blue;*/
@@ -51,22 +59,82 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-nav{
-display: flex;
+
+nav {
+    display: flex;
     gap: 20px;
 }
-.main-title{
+
+.picture {
+    background-image: url("https://img.magput.ru/pics/large/eb3285db-42a1-4d01-b57d-2f9695303d37.jpg");
+    width: 100%;
+    height: 660px;
+    background-size: cover;
+}
+
+
+.main {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: chartreuse;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    color: #FFFFFF;
+}
+
+.div-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+    height: 85vh;
+}
+
+.main p {
+    color: black;
+}
+
+.main {
+    margin-top: 30px;
+    border-left: 1px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.div-first > p {
+    width: 680px;
+}
+
+.main-title {
+    margin-top: 50px;
     color: #295943;
     font-size: 16px;
     text-align: center;
 }
-.second-title{
+
+.second-title {
     color: #3D3E48;
     font-size: 27.65px;
     text-align: center;
 }
 
-.card{
+.card {
+
     width: 380px;
     height: 363px;
     background-color: #FFFFFF;
@@ -75,30 +143,123 @@ display: flex;
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid black;
-    box-shadow: 3px 7px 20px 9px rgba(196,190,196,1);
+    box-shadow: 3px 7px 20px 9px rgba(196, 190, 196, 1);
 
 
 }
-.card-photo{
+
+.card-photo {
     width: 360px;
     height: 227px;
     border-radius: 10px;
 }
-.main-card-title{
+
+.main-card-title {
     color: #3D3E48;
     font-size: 19.2px;
+
 }
-.kgz-text{
+
+.kgz-text {
     color: #295943;
     font-size: 16px;
 }
-.container-foot{
+
+.container-foot {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+
 }
-.main-cards{
+
+.main-cards {
     display: flex;
     gap: 50px;
     margin-left: 30px;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.container-div {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    gap: 75px;
+
+}
+
+.container-div p {
+    width: 134px;
+    height: 90px;
+}
+
+.heading {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    /* Group 37 */
+}
+
+.photo {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.person {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    /*width: 600px;*/
+}
+
+.person2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.aa {
+    margin-top: 20px;
+}
+
+.a {
+    width: 400px;
+    height: 200px;
+}
+
+.d {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.hh {
+    background-color: #43B97F;
+}
+
+.b {
+    background-color: #43B97F;
+}
+
+.footer {
+    background-color: #295943;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer .img {
+    width: 202px;
+    height: 34px;
+}
+
+.h11 {
+    margin: 20px;
+    color: #FFFFFF;
 }
